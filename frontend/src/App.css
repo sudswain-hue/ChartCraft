@@ -1,0 +1,123 @@
+/* App.css */
+
+/* Light mode styles */
+body.light {
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+body.light .container {
+  background-color: #f8f9fa;
+}
+
+body.light .card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+body.light .card-header {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+body.light .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+body.light .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+body.light .btn-outline-secondary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+body.light .btn-outline-secondary:hover {
+  color: #0056b3;
+  border-color: #0056b3;
+}
+
+body.light .alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark .container {
+  background-color: #1c1c1c;
+}
+
+body.dark .card {
+  background-color: #333;
+  border-color: #444;
+}
+
+body.dark .card-header {
+  background-color: #444;
+  color: white;
+}
+
+body.dark .btn-primary {
+  background-color: #6200ea;
+  border-color: #6200ea;
+}
+
+body.dark .btn-primary:hover {
+  background-color: #3700b3;
+  border-color: #3700b3;
+}
+
+body.dark .btn-outline-secondary {
+  color: white;
+  border-color: #444;
+}
+
+body.dark .btn-outline-secondary:hover {
+  color: #6200ea;
+  border-color: #6200ea;
+}
+
+body.dark .alert-danger {
+  background-color: #ff4d4d;
+  color: white;
+}
+/* Modal styling for dark mode */
+body.dark .modal-content {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #333;
+}
+
+body.dark .modal-header,
+body.dark .modal-footer {
+  border-color: #333;
+}
+
+body.dark .btn-close {
+  filter: invert(1); 
+}
+
+.app-title {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  letter-spacing: 1px;
+}
+
+body:not(.dark) .btn-outline-secondary:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  border-color: #ccc;
+}
