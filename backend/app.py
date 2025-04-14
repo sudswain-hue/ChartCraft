@@ -107,4 +107,5 @@ def get_visualization(viz_id, filename):
     return send_from_directory(os.path.join(VISUALIZATIONS_DIR, viz_id), filename)
   
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("FLASK_RUN_PORT", 5000))
+    app.run(debug=True,port=port)

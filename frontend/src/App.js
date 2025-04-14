@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import demoImg from './static/bar_chart_infographic.jpg';
+import demoImg from './static/error_image.png';
 import pythonLogo from './static/python.png';
 import rLogo from './static/rlogo.png';
 
