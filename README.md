@@ -102,15 +102,16 @@ ChartCraft is a web application that allows users to generate and view data visu
 
 ## Troubleshooting
 
-### Common Issues:
+### Issues Faced:
 
 1. **"Error connecting to the server"**
    - Ensure the backend Flask server is running
-   - Check that the frontend is correctly configured to connect to the backend URL
+   - Check that the frontend is correctly configured to connect with  backend API
 
 2. **R visualization errors**
    - Make sure Pandoc is installed if using interactive R visualizations
    - Check that required R packages are installed
+   - Ensure that the R version is compatible with the required visualization libraries.
 
 3. **Python visualization errors**
    - Ensure all required Python packages are installed
